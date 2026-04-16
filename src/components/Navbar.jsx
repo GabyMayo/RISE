@@ -39,7 +39,7 @@ const Navbar = () => {
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: 'var(--nav-height)' }}>
           
           <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-            <Cpu size={32} color="var(--color-cyan)" />
+            {/* <Cpu size={32} color="var(--color-cyan)" /> */}
             <span style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: '1.5rem', letterSpacing: '1px' }}>
               R<span className="gold-text">I</span>SE <span style={{fontSize: '1rem', opacity: 0.8}}>3</span>
             </span>
@@ -61,9 +61,6 @@ const Navbar = () => {
                 {link.name}
               </Link>
             ))}
-            <Link to="/registration" className="btn btn-primary" style={{ marginLeft: '1rem' }}>
-              Register
-            </Link>
           </nav>
 
           {/* Mobile Menu Icon */}
@@ -90,9 +87,6 @@ const Navbar = () => {
               {link.name}
             </Link>
           ))}
-          <Link to="/registration" onClick={() => setIsOpen(false)} style={{ display: 'block', padding: '1rem', marginTop: '0.5rem', textAlign: 'center', background: 'var(--color-purdue-gold)', color: '#000', borderRadius: '4px', fontWeight: 'bold' }}>
-            Register Now
-          </Link>
         </div>
       )}
 

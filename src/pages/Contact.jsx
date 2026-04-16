@@ -21,7 +21,7 @@ const Contact = () => {
             </div>
             <div>
               <h3 style={{ margin: '0 0 0.25rem 0' }}>Email Us</h3>
-              <a href="mailto:purduerise@gmail.com" style={{ color: '#ccc' }}>purduerise@gmail.com</a>
+              <a href="mailto:autonomy@purdue.edu" style={{ color: '#ccc' }}>autonomy@purdue.edu</a>
             </div>
           </div>
           
@@ -38,9 +38,10 @@ const Contact = () => {
           <div className="glass-panel" style={{ padding: '2rem', background: 'rgba(31, 40, 51, 0.3)' }}>
             <h3 style={{ marginBottom: '1rem' }}>Event Location</h3>
             <p style={{ color: '#ccc', margin: 0 }}>
-              Purdue Memorial Union (PMU)<br/>
+              {/* Purdue Memorial Union (PMU)<br/>
               101 N Grant St,<br/>
-              West Lafayette, IN 47906
+              West Lafayette, IN 47906 */}
+              TBD
             </p>
           </div>
         </div>

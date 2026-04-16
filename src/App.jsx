@@ -7,7 +7,6 @@ import Speakers from './pages/Speakers';
 import Expo from './pages/Expo';
 import Workshops from './pages/Workshops';
 import Sponsors from './pages/Sponsors';
-import Registration from './pages/Registration';
 import FAQ from './pages/FAQ';
 import Contact from './pages/Contact';
 
@@ -22,7 +21,6 @@ function App() {
           <Route path="/expo" element={<Expo />} />
           <Route path="/workshops" element={<Workshops />} />
           <Route path="/sponsors" element={<Sponsors />} />
-          <Route path="/registration" element={<Registration />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

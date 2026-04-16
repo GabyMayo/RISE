@@ -33,21 +33,21 @@ const Footer = () => {
           <div>
             <h3 style={{ fontSize: '1.2rem', marginBottom: '1rem' }}>Connect</h3>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-              <a href="mailto:purduerise@gmail.com" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#aaa' }}>
-                <Mail size={18} /> purduerise@gmail.com
+              <a href="mailto:autonomy@purdue.edu" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#aaa' }}>
+                <Mail size={18} /> autonomy@purdue.edu
               </a>
               <a href="https://instagram.com/purdue.rise" target="_blank" rel="noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#aaa' }}>
                 <Camera size={18} /> @purdue.rise
               </a>
               <span style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#aaa' }}>
-                <MapPin size={18} /> Purdue Memorial Union
+                <MapPin size={18} /> TBD
               </span>
             </div>
           </div>
         </div>
         
         <div style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '2rem', textAlign: 'center', fontSize: '0.85rem', color: '#666' }}>
-          <p>Organized by Purdue Autonomous Robotics Club & Purdue ICON.</p>
+          <p>Organized by Autonomous Robotics Club of Purdue & Purdue ICON.</p>
           <p>&copy; 2026 Robotics and Intelligent Systems Expo. All Rights Reserved.</p>
         </div>
       </div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Calendar, MapPin, ChevronRight, Activity, Users, Settings, Target, Briefcase } from 'lucide-react';
 
 const Home = () => {
@@ -47,19 +46,16 @@ const Home = () => {
             <div className="flex flex-col md-flex-row items-center justify-center gap-4 mb-8">
               <div className="flex items-center gap-2" style={{ color: 'var(--color-off-white)' }}>
                 <Calendar className="gold-text" size={24} />
-                <span style={{ fontSize: '1.2rem', fontWeight: 500 }}>November 2026</span>
+                <span style={{ fontSize: '1.2rem', fontWeight: 500 }}>December 2026</span>
               </div>
               <div className="md-hide" style={{ width: '4px', height: '4px', borderRadius: '50%', backgroundColor: 'var(--color-dark-gray)' }}></div>
               <div className="flex items-center gap-2" style={{ color: 'var(--color-off-white)' }}>
                 <MapPin className="cyan-text" size={24} />
-                <span style={{ fontSize: '1.2rem', fontWeight: 500 }}>Purdue Memorial Union</span>
+                <span style={{ fontSize: '1.2rem', fontWeight: 500 }}>Purdue University</span>
               </div>
             </div>
 
             <div className="flex flex-col md-flex-row justify-center gap-4">
-              <Link to="/registration" className="btn btn-primary" style={{ padding: '1rem 2.5rem', fontSize: '1.1rem' }}>
-                Register Now <ChevronRight size={20} />
-              </Link>
               <a href="#about" className="btn btn-accent" style={{ padding: '1rem 2.5rem', fontSize: '1.1rem' }}>
                 Learn More
               </a>
@@ -89,6 +85,12 @@ const Home = () => {
             
             <div className="flex flex-col gap-4 animate-fade-in delay-300">
               {/* Purdue ICON Callout */}
+              <div className="glass-panel" style={{ borderLeft: '4px solid var(--color-purdue-gold)' }}>
+                <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Purdue ARC</h3>
+                <p style={{ color: '#ccc', margin: 0 }}>
+                  Hosted by the Autonomous Robotics Club of Purdue (ARC), providing students with hands-on experience in building the autonomous systems of tomorrow.
+                </p>
+              </div>
               <div className="glass-panel" style={{ borderLeft: '4px solid var(--color-cyan)' }}>
                 <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Purdue ICON</h3>
                 <p style={{ color: '#ccc', marginBottom: '1.5rem' }}>
@@ -97,12 +99,6 @@ const Home = () => {
                 <a href="https://engineering.purdue.edu/ICON" target="_blank" rel="noreferrer" className="btn" style={{ background: 'rgba(255,255,255,0.1)', color: 'var(--color-white)', border: '1px solid rgba(255,255,255,0.2)' }}>
                   Visit Purdue ICON <ChevronRight size={16} />
                 </a>
-              </div>
-              <div className="glass-panel" style={{ borderLeft: '4px solid var(--color-purdue-gold)' }}>
-                <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Purdue ARC</h3>
-                <p style={{ color: '#ccc', margin: 0 }}>
-                  Hosted by the Purdue Autonomous Robotics Club (PARC), providing students with hands-on experience in building the autonomous systems of tomorrow.
-                </p>
               </div>
             </div>
           </div>
