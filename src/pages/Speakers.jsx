@@ -14,7 +14,7 @@ const Speakers = () => (
         <p>
           {SPEAKERS.length > 0
             ? `Confirmed speakers for ${EVENT.day}.`
-            : `Speakers for ${EVENT.year} haven't been announced yet. We'll list them here as they're confirmed.`}
+            : `Speakers and participating companies for ${EVENT.year} haven't been announced yet. We'll list them here as they're confirmed.`}
         </p>
       </PageHeader>
 
